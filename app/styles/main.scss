@@ -10,10 +10,14 @@
 }
 
 #apply-section {
+  font-size: larger;
   text-align: center;
 }
 
 #footer {
+  img {
+    height: $base-font-size;
+  }
   text-align: center;
   margin-bottom: 20px;
 }
