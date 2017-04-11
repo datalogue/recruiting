@@ -103,3 +103,5 @@ typings/
 
 
 
+/dist/
+/.tmp/
