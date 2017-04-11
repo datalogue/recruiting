@@ -4,31 +4,6 @@
 //   TYPOGRAPHY
 // ==============
 
-@font-face {
-  font-family: museo-sans;
-  src: url(../fonts/museo100.otf);
-  font-weight: 100;
-}
-
-@font-face {
-  font-family: museo-sans;
-  src: url(../fonts/museo300.otf);
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: museo-sans;
-  src: url(../fonts/museo500.otf);
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: museo-sans;
-  src: url(../fonts/museo700.otf);
-  font-weight: 700;
-}
-
-
 $datalogue-sans-serif: 'museo-sans', 'Helvetica', 'Arial', sans-serif;
 $datalogue-condensed: 'museo-sans-condensed', 'Arial', 'Helvetica', sans-serif;
 
