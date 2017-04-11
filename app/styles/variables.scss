@@ -1,0 +1,116 @@
+// Define Variables for Color, Margins, etc., Here
+
+// ==============
+//   TYPOGRAPHY
+// ==============
+
+@font-face {
+  font-family: museo-sans;
+  src: url(../fonts/museo100.otf);
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: museo-sans;
+  src: url(../fonts/museo300.otf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: museo-sans;
+  src: url(../fonts/museo500.otf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: museo-sans;
+  src: url(../fonts/museo700.otf);
+  font-weight: 700;
+}
+
+
+$datalogue-sans-serif: 'museo-sans', 'Helvetica', 'Arial', sans-serif;
+$datalogue-condensed: 'museo-sans-condensed', 'Arial', 'Helvetica', sans-serif;
+
+$datalogue-serif: 'Georgia', 'Times New Roman', serif;
+$datalogue-monospace: 'Courier', 'Monaco', monospace;
+
+$font-weight-light: 100;
+$font-weight-normal: 300;
+$font-weight-semibold: 500;
+$font-weight-bold: 700;
+
+
+$base-font-size: 16px;
+$base-line-height: 1.5rem;
+
+// ===================
+//  MARGINS, GUTTERS
+// ===================
+
+$margin: 20px;
+
+// ===================
+//   BRANDING COLORS
+// ===================
+
+$datalogue-black: #000;
+$datalogue-gray:  #737373;
+$datalogue-lightgray: #aaa;
+$datalogue-offwhite: #eee;
+$datalogue-white: #fff;
+$datalogue-ocean-slate: #37474f;
+$datalogue-teal: #607d8b;
+
+// $datafabric-pink: #ff1a9f;
+// $datafabric-teal: #00eaff;
+// $datafabric-sea: #12a6b2;
+// $datafabric-amber: #ccb414;
+// $datafabric-wheat: #b29c09;
+
+// $datafabric-green: #009eb3;
+// $datafabric-orange: #f76e26;
+$datafabric-blue: #009eb3; // 009eb3
+$datafabric-light-blue: #20c1d6;  // 20c1d6
+$datafabric-orange: #f76e26;
+
+$datafabric-amber: #ccb414;
+$datafabric-wheat: #b29c09;
+
+$datafabric-white: #fff;
+
+$datafabric-az-sunset: #ecceaa; // dc6e60 bd493c
+$datafabric-az-tourqoise: #3dda0a;
+$datafabric-az-merlot: #bc0072;
+$datafabric-az-plum: #751400;
+$datafabric-az-lime: #d9bef4;
+$datafabric-az-cobalt: #1a539e;
+
+$datafabric-red: #bc0033;
+
+$datafabric-danger: $datafabric-red;
+
+$datalogue-light-blue: #f6faff;
+
+// ===================
+//   DATA TYPE COLORS
+// ===================
+
+$datatype-string: #288;
+$datatype-decimal: #822;
+$datatype-integer: #828;
+$datatype-boolean: #55c;
+$datatype-json: #555;
+
+
+// ===================
+//  BORDERS, SHADOWS
+// ===================
+
+$border-thin-very-light: 1px solid #ccc;
+$border-thin-light: 1px solid $datalogue-gray;
+$border-thin-dark: 1px solid $datalogue-black;
+$border-thick-light: 2px slolid $datalogue-gray;
+
+$outer-shadow: 2px 2px 2px 0 rgba(0,0,0,0.6);
+$inner-shadow: 2px 2px 2px 0 rgba(0,0,0,0.6) inset;
