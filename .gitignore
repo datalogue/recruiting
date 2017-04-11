@@ -102,6 +102,6 @@ typings/
 .env
 
 
-
+.publish
 /dist/
 /.tmp/
